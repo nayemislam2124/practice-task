@@ -122,3 +122,48 @@ button{
     color:#005fac;
     font-weight:bold;
 }
+footer{
+    background-color:#151515;
+    margin-top:100px;
+    display:flex;
+    color:white;
+    height:60vh;
+}
+footer>*{
+    flex-basis:50%;
+}
+.foot-1{
+    margin-top:100px;
+    margin-left:100px;
+}
+.foot-1 h1{
+    font-size:25px;
+}
+.foot-1 p{
+    font-size:10px;
+    width:300px;
+    margin:20px 0px;
+}
+.foot-1 i{
+    font-size:20px;
+    margin-right:10px;
+}
+.foot-2{
+    margin:100px 0px;
+}
+.foot-2 input{
+    width:200px;
+    height:40px;
+    background-color:transparent;
+    color:white;
+    border:1px solid white;
+    border-radius:10px;
+}
+.foot-2 button{
+    margin-left:0px;
+    background-color:#005fac;
+    color:white;
+}
+.foot-2 h4{
+    font-weight:600;
+}
